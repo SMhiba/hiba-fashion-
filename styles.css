@@ -22,23 +22,58 @@ header nav a {
     font-weight: bold;
 }
 
-/* Main Content */
-main {
+/* Products Section */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     padding: 20px;
 }
 
-section {
-    margin: 20px 0;
-    padding: 20px;
+.product {
     background: white;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    text-align: center;
 }
 
-/* Footer */
-footer {
-    text-align: center;
+.product img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product p {
+    font-size: 1em;
+    color: #555;
+}
+
+button.add-to-cart {
+    background-color: #ff6f61;
+    color: white;
+    border: none;
     padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button.add-to-cart:hover {
+    background-color: #e55a4d;
+}
+
+/* Cart Section */
+.cart-items {
+    margin-top: 20px;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
     background: #333;
     color: white;
 }
