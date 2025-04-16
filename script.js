@@ -33,8 +33,9 @@ function updateCart() {
 // Add event listeners to all "Add to Cart" buttons
 document.querySelectorAll('.add-to-cart').forEach((button, index) => {
     button.addEventListener('click', () => {
-        const productName = button.previousElementSibling.previousElementSibling.textContent;
-        const productPrice = parseFloat(button.previousElementSibling.textContent.replace('Price: $', ''));
+        const productElement = button.parentElement;
+        const productName = productElement.querySelector('h3').textContent;
+        const productPrice = parseFloat(productElement.querySelector('p:nth-of-type(1)').textContent.replace('Price: $', ''));
         addToCart(productName, productPrice);
     });
 });
