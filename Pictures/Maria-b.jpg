@@ -1,1 +1,15 @@
 
+<div class="product">
+    <img src="images/maria-b-embroidered-lawn-suit.jpg" alt="MARIA.B - 3PC Embroidered Lawn Suit">
+    <h3>MARIA.B - 3PC Embroidered Lawn Suit</h3>
+    <p><span class="original-price">Rs.8,999.00</span> <span class="discounted-price">Now Rs.5,499.00</span></p>
+    <p>
+        <strong>Description:</strong><br>
+        - Embroidered Lawn Front with daman patch<br>
+        - Embroidered Lawn Sleeves<br>
+        - Embroidered Organza Dupatta<br>
+        - Airjet Lawn trousers with Patches<br>
+        - FREE SHIPPING NATIONWIDE
+    </p>
+    <button class="add-to-cart">Add to Cart</button>
+</div>
